@@ -6,5 +6,4 @@ class Solution:
                 for j in nums:
                     if j != i and j < target:
                         if i + j == target:
-                            return [i, j]
-        
+                            return [nums.index(i), nums.index(j)]
